@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E4FDE1;
+}
+
+header {
+    padding: 20px 0;
+    margin: 10px 30px;
+    text-align: center;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #90CF8E;
+    border-radius: 10px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    background: url('https://i.imgur.com/YQncMO5.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 10px 20px;
+    color: white;
+}
+
+.service {
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #90CF8E;
+}
+
+.service img {
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #90CF8E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 30px;
+    border-radius: 10px;
+}
+
+.footer-logo, .footer-copy {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-copy {
+    margin-top: 30px;
+}
+
+.footer-logo img {
+    max-width: 50px;
+}
+
+.tinos-regular {
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.knewave-regular {
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+}
